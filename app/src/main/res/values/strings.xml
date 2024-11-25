@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ADL_09</string>
+    <string name="etiqueta_creditos_nombre">Alonso Domínguez López</string>
+    <string name="etiqueta_creditos_grupo">7CM1</string>
+    <string name="etiqueta_creditos_correo">adominguezl2100@alumno.ipn.mx</string>
+    <string name="etiqueta_creditos_boton_regresar">Regresar</string>
+    <string name="etiqueta_boton_cancelar">Cancelar</string>
+    <string name="etiqueta_nombre_superheroe">Nombre super héroe</string>
+    <string name="etiqueta_poderes">Poderes</string>
+    <string name="etiqueta_universo">Universo</string>
+    <string name="etiqueta_debilidad">Debilidad</string>
+    <string name="etiqueta_actualizar">Actualizar</string>
+    <string name="etiqueta_guardar">Guardar</string>
+</resources>

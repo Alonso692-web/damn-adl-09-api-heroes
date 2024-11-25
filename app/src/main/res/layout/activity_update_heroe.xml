@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_border"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".UpdateHeroeActivity">
+
+    <ImageView
+        android:id="@+id/ivUpdateHeroe"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/icono_heroe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etUrlImagenHeroeUpdate"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_border"
+            android:hint="URL"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/btnAgregarImagenUpdate"
+            android:layout_width="48dp"
+            android:layout_height="35dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/cloud"
+            android:contentDescription="Boton actualizar imagen"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombreHeroeUpdate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_nombre_superheroe"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etPoderHeroeUpdate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_poderes"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etUniversoHeroeUpdate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_universo"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etDebilidadHeroeUpdate"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_debilidad"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdateHeroe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/boton_color"
+            android:text="@string/etiqueta_actualizar"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRegresarUpdateHeroe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/color_boton_cancelar"
+            android:text="@string/etiqueta_creditos_boton_regresar"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

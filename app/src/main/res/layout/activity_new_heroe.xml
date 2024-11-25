@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_border"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingHorizontal="40dp"
+    tools:context=".NewHeroeActivity">
+
+    <ImageView
+        android:id="@+id/ivAddHeroe"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/icono_heroe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etUrlImagenHeroe"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_border"
+            android:hint="URL"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            tools:text="https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png" />
+
+        <ImageButton
+            android:id="@+id/btnAgregarImagen"
+            android:layout_width="48dp"
+            android:layout_height="35dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/cloud"
+            android:contentDescription="Boton actualizar imagen"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombreHeroe"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_nombre_superheroe"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        tools:text="Superman" />
+
+    <EditText
+        android:id="@+id/etPoderHeroe"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_poderes"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        tools:text="Superfuerza, vuelo" />
+
+    <EditText
+        android:id="@+id/etUniversoHeroe"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_universo"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        tools:text="DC Comics" />
+
+    <EditText
+        android:id="@+id/etDebilidadHeroe"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_border"
+        android:hint="@string/etiqueta_debilidad"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        tools:text="kryptonita" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingVertical="5dp">
+
+        <Button
+            android:id="@+id/btnGuardarNuevoHeroe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/boton_color"
+            android:text="@string/etiqueta_guardar"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnRegresarNuevoHeroe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/color_boton_cancelar"
+            android:text="@string/etiqueta_creditos_boton_regresar"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFD600"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnHeroes"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/boton_color"
+        android:padding="15dp"
+        android:text="Héroes"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCreditos"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/boton_color"
+        android:padding="15dp"
+        android:text="Créditos"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/boton_color"
+        android:padding="15dp"
+        android:text="Salir"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
